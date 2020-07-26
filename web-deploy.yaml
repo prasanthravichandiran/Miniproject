@@ -36,7 +36,7 @@ spec:
         app: tomcat
     spec:
       containers:
-        - image: mohamedafrid/tomcat-deploy
+        - image: prasanthravichandran/tomcat-deploy
           name: tomcat-webapp
           ports:
             - containerPort: 8080
